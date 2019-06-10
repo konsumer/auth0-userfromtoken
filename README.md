@@ -4,13 +4,13 @@ Simple little module to verify an RS256 token issued by Auth0.
 
 ## usage
 
-```
+```js
 import verify from 'auth0-verify'
 
-const run = async () => {
-  const user = verify(token, AUTH0_CLIENT_DOMAIN)
-}
-run()
+verify(token, AUTH0_CLIENT_DOMAIN)
+  .then(user => {
+    // do stuff with user here
+  })
 ```
 
 where `AUTH0_CLIENT_DOMAIN` is your Auth0 domain, and `token` is a token coming in from client.
