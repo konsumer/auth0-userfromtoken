@@ -1,6 +1,6 @@
 {
   "name": "auth0-verify",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Simple little module to verify an RS256 token issued by Auth0.",
   "dependencies": {
     "isomorphic-fetch": "latest",
