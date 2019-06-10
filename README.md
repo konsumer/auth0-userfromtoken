@@ -1,11 +1,11 @@
-# auth0-verify
+# auth0-userfromtoken
 
 Simple little module to verify an RS256 token issued by Auth0.
 
 ## usage
 
 ```js
-import verify from 'auth0-verify'
+import verify from 'auth0-userfromtoken'
 
 verify(token, AUTH0_CLIENT_DOMAIN)
   .then(user => {

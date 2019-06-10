@@ -1,10 +1,17 @@
 {
   "name": "auth0-verify",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Simple little module to verify an RS256 token issued by Auth0.",
-  "main": "index.js",
+  "dependencies": {
+    "isomorphic-fetch": "latest",
+    "jsonwebtoken": "latest"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konsumer/auth0-verify.git"
   },
   "keywords": [
     "jwt",
@@ -14,8 +21,8 @@
   ],
   "author": "David Konsumer <konsumer@jetboystudio.com> (http://konsumer.js.org)",
   "license": "MIT",
-  "dependencies": {
-    "isomorphic-fetch": "latest",
-    "jsonwebtoken": "latest"
-  }
+  "bugs": {
+    "url": "https://github.com/konsumer/auth0-verify/issues"
+  },
+  "homepage": "https://github.com/konsumer/auth0-verify#readme"
 }
