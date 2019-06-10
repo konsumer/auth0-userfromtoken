@@ -1,5 +1,5 @@
 {
-  "name": "auth0-verify",
+  "name": "auth0-userfromtoken",
   "version": "0.0.2",
   "description": "Simple little module to verify an RS256 token issued by Auth0.",
   "dependencies": {
